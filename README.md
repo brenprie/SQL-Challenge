@@ -70,7 +70,7 @@ ERD:
     ```SQL
     SELECT e.first_name, e.last_name, e.sex
     FROM employees AS e
-    WHERE first_name LIKE 'Hercules'
+    WHERE first_name = 'Hercules'
     AND last_name LIKE 'B%';
     ```
     ![Q5 output](https://github.com/user-attachments/assets/b7c55252-0db6-4aeb-aee0-2cd63de5e84f)
