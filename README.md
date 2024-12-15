@@ -48,6 +48,8 @@ ERD:
 
 5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
+    ![Q5 script](https://github.com/user-attachments/assets/7cc0099a-168b-4431-afd0-7e1948a8115e)
+    ![Q5 output](https://github.com/user-attachments/assets/b7c55252-0db6-4aeb-aee0-2cd63de5e84f)
 
 6. List each employee in the Sales department, including their employee number, last name, and first name.
 
