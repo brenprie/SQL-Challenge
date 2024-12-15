@@ -94,7 +94,7 @@ ERD:
     FROM employees AS e
     JOIN dept_emp AS de ON de.emp_no = e.emp_no
     JOIN departments AS d ON d.dept_no = de.dept_no
-    WHERE d.dept_name LIKE 'Sales'
+    WHERE d.dept_name = 'Sales'
     ORDER BY emp_no;
     ```
     ![Q6 output](https://github.com/user-attachments/assets/3f407d09-51d9-48a1-b006-65ae00c21ce6)
