@@ -41,9 +41,10 @@ ERD:
     ![Q3 script](https://github.com/user-attachments/assets/2dd44565-3ab7-4fc9-abc1-f488294eabb3)
     ![Q3 output](https://github.com/user-attachments/assets/5388485c-28f2-4cca-807c-040c88632455)
 
-
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
+    ![Q4 script](https://github.com/user-attachments/assets/17c0a6e8-dbcb-4bc5-ac55-5110fe6b3080)
+    ![Q4 output](https://github.com/user-attachments/assets/61627945-4ca9-4dde-9ae7-fcc0d4f7952f)
 
 5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
