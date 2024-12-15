@@ -22,28 +22,40 @@ Be sure to do the following:
 * Import each CSV file into its corresponding SQL table.
 
 ERD: 
-![Mod 9 Table Schema](https://github.com/user-attachments/assets/f719ccf8-2ba6-489d-8a35-e8f6f9a7a431)
+    ![Mod 9 Table Schema](https://github.com/user-attachments/assets/f719ccf8-2ba6-489d-8a35-e8f6f9a7a431)
 
 ### Data Analysis
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
-![Q1 script](https://github.com/user-attachments/assets/3d9ba81f-4f1d-4ec6-bc6c-852bbadfeda7)
-![Q1 output](https://github.com/user-attachments/assets/0e1172a2-f3d2-4080-951f-cd7327943b76)
 
+    ![Q1 script](https://github.com/user-attachments/assets/3d9ba81f-4f1d-4ec6-bc6c-852bbadfeda7)
+    ![Q1 output](https://github.com/user-attachments/assets/0e1172a2-f3d2-4080-951f-cd7327943b76)
 
 2. List the first name, last name, and hire date for the employees who were hired in 1986.
 
+    ![Q2 script](https://github.com/user-attachments/assets/ce59bb0d-3303-42f9-80c2-bf198cacffef)
+    ![Q2 output](https://github.com/user-attachments/assets/0d335bce-8978-41cd-816f-6d7bb750d7c6)
+
 3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
+
+    ![Q3 script](https://github.com/user-attachments/assets/2dd44565-3ab7-4fc9-abc1-f488294eabb3)
+    ![Q3 output](https://github.com/user-attachments/assets/5388485c-28f2-4cca-807c-040c88632455)
+
 
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
+
 5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+
 
 6. List each employee in the Sales department, including their employee number, last name, and first name.
 
+
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
+
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
 
 ## Resources
 
