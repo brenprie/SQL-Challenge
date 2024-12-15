@@ -113,7 +113,15 @@ ERD:
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
+ 	```SQL
+	SELECT last_name, COUNT(last_name) 
+	FROM employees
+	GROUP BY last_name
+	ORDER BY last_name DESC;
+	```
+	![Q8 output](https://github.com/user-attachments/assets/6bb9651a-8ece-4389-a71b-eb586a488058)
 
+   
 ## Resources
 
 [PostgreSQL 16.6 Documentation](https://www.postgresql.org/files/documentation/pdf/16/postgresql-16-US.pdf)
