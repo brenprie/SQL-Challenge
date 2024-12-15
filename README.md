@@ -53,11 +53,14 @@ ERD:
 
 6. List each employee in the Sales department, including their employee number, last name, and first name.
 
+    I implement this query using two approaches: 1) subqueries, and to verify my work, 2) joins. Both yield the same output after ordering. 
+    ![Q6 script](https://github.com/user-attachments/assets/f6b2a3af-636b-4d0b-99a8-29ac25dc8735)
+    ![Q6 output](https://github.com/user-attachments/assets/3f407d09-51d9-48a1-b006-65ae00c21ce6)
+    
+8. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-
-8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+9. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 
 ## Resources
