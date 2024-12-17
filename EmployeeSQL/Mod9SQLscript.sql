@@ -85,10 +85,11 @@ FROM employees AS e
 WHERE e.hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
 -- QUERY 3: List the manager of each dept along with their dept number, dept name, emp number, last name, and first name. 
-SELECT d.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name
+SELECT t.title, d.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name
 FROM departments AS d
 JOIN dept_manager AS dm ON d.dept_no = dm.dept_no
-JOIN employees AS e ON dm.emp_no = e.emp_no;
+JOIN employees AS e ON dm.emp_no = e.emp_no
+JOIN titles AS t ON e.emp_title_id = t.title_id;
 
 -- QUERY 4: List the dept number for each employee along with that employee's emp number, last name, first name, and dept name.
 SELECT de.dept_no, de.emp_no, e.last_name, e.first_name, d.dept_name
