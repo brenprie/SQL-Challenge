@@ -48,12 +48,14 @@ ERD:
 3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
     ```SQL
-    SELECT d.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name
+    SELECT t.title, d.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name
     FROM departments AS d
     JOIN dept_manager AS dm ON d.dept_no = dm.dept_no
-    JOIN employees AS e ON dm.emp_no = e.emp_no;
+    JOIN employees AS e ON dm.emp_no = e.emp_no
+    JOIN titles AS t ON e.emp_title_id = t.title_id;
     ```
-    ![Q3 output](https://github.com/user-attachments/assets/5388485c-28f2-4cca-807c-040c88632455)
+    ![Q3 output](https://github.com/user-attachments/assets/11d48ce7-f49e-4f5d-b977-6ef17576c312)
+
 
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
