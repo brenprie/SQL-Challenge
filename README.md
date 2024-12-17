@@ -22,7 +22,8 @@ Be sure to do the following:
 * Import each CSV file into its corresponding SQL table.
 
 ERD: 
-    ![Mod 9 Table Schema](https://github.com/user-attachments/assets/f719ccf8-2ba6-489d-8a35-e8f6f9a7a431)
+    ![Mod 9 Table Schema](https://github.com/user-attachments/assets/57d0e200-22ba-4678-9ca9-32e4b4358cb1)
+
 
 ### Data Analysis
 
